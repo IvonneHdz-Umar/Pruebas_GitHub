@@ -9,4 +9,7 @@ git pull	 bajar cambios del repositorio remoto
 git status	ver el estado del respo local
 git branch	 ver las ramas que existen
 git branch "rama"	 crear una nueva rama
-git checkout "rama"	cambiar a la rama seleccionadag
+git checkout -b "rama"	cambiar a la rama seleccionadag
+
+git restore . 		restaura archivos del working
+git restore -- staged . restaura archivos del stating 
